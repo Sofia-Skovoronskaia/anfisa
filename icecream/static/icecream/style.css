@@ -1,0 +1,56 @@
+h1{
+    color: #ee0979;
+    text-shadow: -2px -2px 0 #ffe3ce, 2px -2px 0 #4D4644, -2px 2px 0 #4D4644, 2px 2px 0 #4D4644, 4px 4px 0 white, 5px 5px 0 white, 6px 6px 0 white;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: white;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+   }
+.description{
+    text-align: center;
+    width: 40em;
+    alignment: center;
+    border: 4px double black; /* Параметры границы */
+    padding: 10px; /* Поля вокруг текста */
+    position: relative; left: 16em;
+}
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+    position: relative; left: 34em;
+}
+.rounded-pill {
+  border-radius: 5rem;
+}
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn{
+    text-align: center;
+}
